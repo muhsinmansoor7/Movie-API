@@ -12,10 +12,4 @@ public class MoviesApplication {
     public static void main(String[] args) {
         SpringApplication.run(MoviesApplication.class, args);
     }
-
-    @GetMapping("/")
-    public static String control() {
-        return "Hello World! rest controller database connected with env implemented";
-    }
-
 }

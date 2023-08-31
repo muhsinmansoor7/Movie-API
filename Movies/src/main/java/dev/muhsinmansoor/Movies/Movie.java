@@ -27,7 +27,7 @@ public class Movie {
     private List<String> backdrops; // user for frontend dev.
 
     @DocumentReference // Manual reference relationship
-    private List<String> reviewIds; // one to many relationship. documentReference is another way of doing it.
+    private List<Review> reviewIds; // one to many relationship. documentReference is another way of doing it.
 
 
 
